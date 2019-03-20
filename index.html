@@ -7,7 +7,7 @@
 	<!-- Basic Page Needs
 	================================================== -->
 	<meta charset="utf-8">
-	<title>Funky Template by IG Design</title>
+	<title>Di's 40th birthday</title>
 	<meta name="description" content="">
 	<meta name="author" content="">
 
@@ -29,6 +29,7 @@
 
 	<!-- CSS
 	================================================== -->
+	<link rel="stylesheet" href="css/coupey.css"/>
 	<link rel="stylesheet" href="css/bootstrap.min.css"/>
 	<link rel="stylesheet" href="css/font-awesome.min.css"/>
 	<link rel="stylesheet" href="css/mind-icons-line.css"/>
@@ -63,7 +64,7 @@
 							<span class="navbar-toggler-icon"></span>
 						</button>
 						<a class="navbar-brand" href="index.html">
-							<img src="img/logo-light.png" alt="" class="">
+							<!--<img src="img/logo-light.png" alt="" class="">-->
 						</a>
 						<div class="collapse navbar-collapse justify-content-end" id="navbarNavMenuMain">
 							<ul class="navbar-nav">
@@ -71,11 +72,12 @@
 									<a href="#home" class="nav-link">Details</a>
 								</li>
 								<li class="nav-item">
-									<a href="#about" class="nav-link">Map</a>
+									<a href="#rsvp" class="nav-link"><strong>RSVP</strong></a>
 								</li>
 								<li class="nav-item">
-									<a href="#team" class="nav-link">RSVP</a>
+									<a href="#about" class="nav-link">Map</a>
 								</li>
+
 								<li class="nav-item">
 									<a href="#skills" class="nav-link">Hotels</a>
 								</li>
@@ -89,35 +91,6 @@
 			</div>
 		</div>
 	</div>
-
-
-	<!-- Search -->
-	<div class="modal fade default search-modal" id="Modal-search" tabindex="-1" role="dialog" aria-hidden="true">
-		<div class="modal-dialog" role="document">
-			<div class="modal-content">
-				<div class="modal-header justify-content-end">
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-						<span aria-hidden="true"></span>
-					</button>
-				</div>
-				<div class="modal-body">
-					<div class="hero-center-wrap move-top">
-						<div class="container">
-							<div class="row justify-content-center">
-								<div class="col-md-6">
-									<input type="search" value="" placeholder="Search" class="form-control" />
-									<button class="btn btn-primary btn-icon btn-round" type="submit" value="search">
-										<i class="fa fa-search"></i>
-									</button>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
 
 
 
@@ -139,9 +112,25 @@
 				<div class="container color-white hero-text big-text text-center parallax-fade-top">
 					<div class="row">
 						<div class="col-md-12 mg-auto">
-							<p style="font-family: 'Kaushan Script', cursive; font-size: 5em;">this is not a surprise party...</p>
-							<h1 class="color-white mb-xl-5" style="font-family: 'Bungee Shade', cursive">THIS IS A PISS UP IN A BREWERY</h1>
-							<a href="#scroll-top" class="btn btn-primary btn-round btn-long mt-5 scroll" >discover more</a>
+							<p class='coupey-brush-script ml12'>
+								<span class="letter">this </span>
+								<span class="letter">is </span>
+								<span class="letter">not </span>
+								<span class="letter">a </span>
+								<span class="letter">surprise </span>
+								<span class="letter">party...</span>
+							</p>
+							<h1 class="mb-xl-5"><span class="coupey-bungee-script ml13">
+								<span class="letter">THIS </span>
+								<span class="letter">IS </span>
+								<span class="letter">A </span>
+								<span class="letter">PISS </span>
+								<span class="letter">UP </span>
+								<span class="letter">IN </span>
+								<span class="letter">A </span>
+								<span class="letter">BREWERY </span>
+							</h1>
+							<a href="#rsvp" class="btn btn-primary btn-round btn-long mt-5 scroll" >RSVP</a>
 						</div>
 					</div>
 				</div>
@@ -240,7 +229,7 @@
 
 	</div>
 
-	<div class="section" id="team">
+	<div class="section" id="rsvp">
 
 		<!-- Title Block With Parallax Background Image
 		================================================== -->
@@ -430,8 +419,8 @@
 				</div>
 			</div>
 		</div>
-
 	</div>
+
 
 	<div class="section" id="skills">
 
@@ -813,6 +802,39 @@
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/plugins.js"></script>
 	<script type="text/javascript" src="js/custom/custom-op-media-agency.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+	<script type="text/javascript">
+		function getRandomTranslation() {
+			return [Math.round(Math.random()*100),Math.round(Math.random()*100)]
+		}
+
+		anime.timeline({loop: false})
+		.add({
+			targets: '.ml12 .letter',
+			translateX: [20,0],
+			translateZ: 0,
+			opacity: [0,1],
+			easing: "easeOutExpo",
+			duration: 1200,
+			delay: function(el, i) {
+				return 1500 + 200 * i;
+			}
+		})
+		.add({
+			targets: '.ml13 .letter',
+			translateX: [20,0],
+			translateZ: 0,
+			opacity: [0,1],
+			easing: "easeOutExpo",
+			duration: 1200,
+			delay: function(el, i) {
+				return 100 + 200 * i;
+			}
+		});
+
+	</script>
+
+
 <!-- End Document
 ================================================== -->
 </body>

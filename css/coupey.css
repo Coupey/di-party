@@ -1,0 +1,36 @@
+.coupey-brush-script {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 5em!important;
+    line-height: 3rem;
+}
+
+.coupey-bungee-script {
+    font-family: 'Bungee Shade', cursive!important;
+    color: white;
+}
+
+.ml12 .letter {
+    opacity: 0;
+    display: inline-block;
+    line-height: 1em;
+    background-color: transparent;
+    padding: 0;
+}
+
+.ml13 .letter {
+    opacity: 0;
+}
+
+@media (max-width: 991px) {
+    .hero-text.big-text h1 {
+        font-size: 5.5rem!important;
+        line-height: 5rem!important;
+    }
+}
+
+@media (max-width: 691px) {
+    .hero-text.big-text h1 {
+        font-size: 3.5rem!important;
+        line-height: 3rem!important;
+    }
+}

@@ -356,7 +356,7 @@ body.royal_preloader {
 }
 .alert-success,
 .alert-success .alert-link,
-.alert-info, 
+.alert-info,
 .alert-info .alert-link,
 .alert-warning,
 .alert-warning .alert-link,
@@ -594,13 +594,13 @@ body.royal_preloader {
     -ms-transition: all 300ms linear;
     transition: all 300ms linear;
 }
-.btn-link:focus, 
+.btn-link:focus,
 .btn-link:hover {
 	text-decoration: none;
 	opacity:.8;
 	color: #666;
 	background-color: transparent;
-}	
+}
 .btn-link.btn-primary  {
 }
 .btn-link.btn-success  {
@@ -720,9 +720,9 @@ body.royal_preloader {
 	padding: 0.8rem 0.75rem;
 	font-size: .8rem;
 	line-height: 1.25;
-	color: #464a4c;
-	background-color: transparent;
-	border: none;
+	color: #24282a;
+	/*background-color: transparent;*/
+	/*border: none;*/
 	border-bottom: 1px solid rgba(0, 0, 0, 0.15);
 	border-radius: 0;
 }
@@ -844,8 +844,8 @@ body.royal_preloader {
 .dropdown-menu.danger-color .dropdown-header:not([href]):not([tabindex]) {
     color: rgba(255, 255, 255, 0.7);
 }
-.dropdown-menu.main-color .dropdown-item, 
-.dropdown-menu.info-color .dropdown-item, 
+.dropdown-menu.main-color .dropdown-item,
+.dropdown-menu.info-color .dropdown-item,
 .dropdown-menu.success-color .dropdown-item,
 .dropdown-menu.warning-color .dropdown-item,
 .dropdown-menu.danger-color .dropdown-item {
@@ -1137,17 +1137,17 @@ body.royal_preloader {
 	font-size: 1rem;
 	line-height: 1.2rem;
 }
-.navbar-inverse .navbar-nav .nav-link:focus, 
+.navbar-inverse .navbar-nav .nav-link:focus,
 .navbar-inverse .navbar-nav .nav-link:hover {
 	color: #fff;
 }
-.navbar-light .navbar-nav .nav-link:focus, 
+.navbar-light .navbar-nav .nav-link:focus,
 .navbar-light .navbar-nav .nav-link:hover {
 	color: #323232;
 }
 .nav-link:hover {
 	background-color: rgba(255,255,255,0.2);
-} 
+}
 .navbar-light .navbar-nav .nav-link:hover {
 	background-color: rgba(21,21,21,0.06);
 }
@@ -1411,7 +1411,7 @@ body.royal_preloader {
 	line-height: 22px;
 	padding-right:7px;
 }
-.nav-tabs .nav-link:focus, 
+.nav-tabs .nav-link:focus,
 .nav-tabs .nav-link:hover {
 	border-color: #777;
 }
@@ -1918,7 +1918,7 @@ body.royal_preloader {
 	color: #fff;
 	background: rgba(92, 229, 170, 1);
 	margin-top:8px;
-}	
+}
 .bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-warning,
 .bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-warning {
 	background: rgba(255, 184, 59, 1);
@@ -2004,7 +2004,7 @@ body.royal_preloader {
     border: 1px solid transparent;
 }
 .page-link:active,
-.page-link:focus, 
+.page-link:focus,
 .page-link {
     border: 1px solid rgba(0, 0, 0, .08);
     border-radius: 35px !important;
@@ -2355,7 +2355,7 @@ body.royal_preloader {
     background-color: rgba(239, 109, 126, 1);
 }
 
-/* Video Hover Image */	
+/* Video Hover Image */
 
 .video-section {
 	position: relative;
@@ -2370,14 +2370,14 @@ body.royal_preloader {
 	padding-top: 0;
 	height: 0;
 	overflow: hidden;
-}	
+}
 .video-wrapper iframe {
 	position: absolute;
 	top: 0;
 	left: 0;
 	width: 100%;
 	height: 100%;
-}	
+}
 figure.youtube a img, figure.vimeo a img {
 	position: absolute;
 	top: 0;
@@ -2385,7 +2385,7 @@ figure.youtube a img, figure.vimeo a img {
 	width: auto;
 	height: 100%;
 	max-width:none;
-}	
+}
 figure.vimeo a:after, figure.youtube a:after {
 	content:"";
 	width:60px;
@@ -2402,11 +2402,11 @@ figure.vimeo a:after, figure.youtube a:after {
     -moz-transition: all 500ms linear;
     -o-transition: all 500ms linear;
     -ms-transition: all 700ms linear;
-    transition: all 500ms linear; 
+    transition: all 500ms linear;
 }
 figure.vimeo:hover a:after, figure.youtube:hover a:after {
 	box-shadow: 0px 0px 0px 1000px rgba(255,255,255,0.1);
-}	
+}
 figure.vimeo a:before, figure.youtube a:before {
 	content:"";
 	width: 0;
@@ -2424,21 +2424,21 @@ figure.vimeo a:before, figure.youtube a:before {
     -moz-transition: all 300ms linear;
     -o-transition: all 300ms linear;
     -ms-transition: all 300ms linear;
-    transition: all 300ms linear; 
+    transition: all 300ms linear;
 }
 figure.vimeo:hover a:before, figure.youtube:hover a:before {
 	border-left: 10px solid #fff;
-}	
+}
 figure.vimeo a:hover img, figure.youtube a:hover img {
 	-webkit-transition: all 0.4s;
 	transition: all 0.4s;
-}	
+}
 figure.vimeo a img, figure.youtube a img {
     -webkit-transition: all 300ms linear;
     -moz-transition: all 300ms linear;
     -o-transition: all 300ms linear;
     -ms-transition: all 300ms linear;
-    transition: all 300ms linear; 
+    transition: all 300ms linear;
 	a -webkit-transform: scale(1);
 	transform: scale(1);
 }
@@ -2534,12 +2534,12 @@ figure.vimeo a img, figure.youtube a img {
     -ms-transition: all 200ms linear;
     transition: all 200ms linear;
 }
-.modal-header button.close:hover span:before, 
+.modal-header button.close:hover span:before,
 .modal-header button.close:hover span:after {
     -ms-transform: rotate(0);
     -webkit-transform: rotate(0);
     transform: rotate(0);
-} 
+}
 .modal-header button.close:hover span:before {
     margin-top: -1px;
 }
@@ -2587,26 +2587,26 @@ figure.vimeo a img, figure.youtube a img {
 .modal.default .modal-content {
 	color: #fff;
 }
-.modal.danger .modal-header button.close span:before, 
+.modal.danger .modal-header button.close span:before,
 .modal.danger .modal-header button.close span:after,
-.modal.warning .modal-header button.close span:before, 
+.modal.warning .modal-header button.close span:before,
 .modal.warning .modal-header button.close span:after,
-.modal.success .modal-header button.close span:before, 
+.modal.success .modal-header button.close span:before,
 .modal.success .modal-header button.close span:after,
-.modal.info .modal-header button.close span:before, 
+.modal.info .modal-header button.close span:before,
 .modal.info .modal-header button.close span:after,
-.modal.primary .modal-header button.close span:before, 
+.modal.primary .modal-header button.close span:before,
 .modal.primary .modal-header button.close span:after,
-.modal.default .modal-header button.close span:before, 
+.modal.default .modal-header button.close span:before,
 .modal.default .modal-header button.close span:after {
 	background-color: #fff;
 }
 .modal.default .modal-content {
 	background-color: #212121;
-} 
+}
 .modal.info .modal-content {
 	background-color: rgba(41, 192, 255, 1);
-} 
+}
 .modal.success .modal-content {
 	background-color: rgba(92, 229, 170, 1);
 }
@@ -2628,10 +2628,10 @@ figure.vimeo a img, figure.youtube a img {
 	line-height: 80px;
 	font-size: 26px;
 	display: block;
-} 
+}
 .modal.info .modal-icon {
 	color: rgba(41, 192, 255, 1);
-} 
+}
 .modal.success .modal-icon {
 	color: rgba(92, 229, 170, 1);
 }
@@ -2669,7 +2669,7 @@ figure.vimeo a img, figure.youtube a img {
 	.tipper.bottom .tipper-content { }
 	.tipper.bottom .tipper-caret { background-position: center top; top: -5px; left: 0; }
 
-	
+
 /* #Google map
 ================================================== */
 
@@ -2752,7 +2752,7 @@ figure.vimeo a img, figure.youtube a img {
 #cd-zoom-out {
 	background-position: 50% -32px;
 	z-index:3;
-} 
+}
 
 .list-style {
 	margin-top: 0.5rem;
@@ -2805,24 +2805,24 @@ figure.vimeo a img, figure.youtube a img {
 /* #Counter
 ================================================== */
 
-.counter-wrap{ 
+.counter-wrap{
 	position:relative;
 	width:100%;
-} 
-.counter-wrap.ver-2{ 
+}
+.counter-wrap.ver-2{
 	height: 7rem;
 }
-.counter-wrap.ver-2.land{ 
+.counter-wrap.ver-2.land{
 	height: 6rem;
 }
-.counter-wrap.ver-2.land em{ 
+.counter-wrap.ver-2.land em{
 	font-style: normal;
 }
-.counter-wrap.ver-2.land sup{ 
+.counter-wrap.ver-2.land sup{
 	font-size: 3.8rem;
 	font-weight: 100;
 }
-.counter-wrap.ver-2.land p span.small-2{ 
+.counter-wrap.ver-2.land p span.small-2{
 	opacity: 0.3;
 	font-size:6rem;
 	line-height:6rem;
@@ -2848,9 +2848,9 @@ figure.vimeo a img, figure.youtube a img {
 	font-weight: 600;
 	width: 100%;
 	z-index: 2;
-} 
+}
 
-.counter-wrap.ver-3{ 
+.counter-wrap.ver-3{
 	height: 9rem;
 }
 .counter-wrap.ver-3 p span.small-2{
@@ -2875,7 +2875,7 @@ figure.vimeo a img, figure.youtube a img {
 	width: 100%;
 	color: #444;
 	z-index: 2;
-} 
+}
 
 .counter-wrap h6{
 	text-align:center;
@@ -2885,7 +2885,7 @@ figure.vimeo a img, figure.youtube a img {
 	font-weight: 400;
 	letter-spacing: 2px;
 	color: #999;
-} 
+}
 .counter-wrap.dark h6{
 	color: #fff;
 }
@@ -2899,7 +2899,7 @@ figure.vimeo a img, figure.youtube a img {
 	vertical-align: top;
 	height:120px;
 	font-weight: 100;
-} 
+}
 .counter-wrap p span.med{
 	text-align:center;
 	font-size:80px;
@@ -2943,14 +2943,14 @@ figure.vimeo a img, figure.youtube a img {
 	font-size:60px;
 	line-height:60px;
 	font-weight: 300;
-	float: left;	
+	float: left;
 }
 .dropcap.rounded{
-	border-radius: 0.3rem;	
+	border-radius: 0.3rem;
 	font-size:42px;
 }
 .dropcap.circle{
-	border-radius: 50%;	
+	border-radius: 50%;
 	font-size:38px;
 }
 .dropcap.dark-bg,
@@ -3173,7 +3173,7 @@ figure.vimeo a img, figure.youtube a img {
     -moz-transition: all 300ms linear;
     -o-transition: all 300ms linear;
     -ms-transition: all 300ms linear;
-    transition: all 300ms linear; 
+    transition: all 300ms linear;
 }
 .scroll-to-top:hover {
 	color: #fff;
@@ -3850,12 +3850,12 @@ figure.vimeo a img, figure.youtube a img {
     -ms-transition: all 200ms linear;
     transition: all 200ms linear;
 }
-.drop-shop-block span.close:hover:before, 
+.drop-shop-block span.close:hover:before,
 .drop-shop-block span.close:hover:after {
     -ms-transform: rotate(0);
     -webkit-transform: rotate(0);
     transform: rotate(0);
-} 
+}
 .navbar .nav-item.icons-item-menu .dropdown-menu p{
 	position:relative;
 	display: block;
@@ -3904,14 +3904,14 @@ figure.vimeo a img, figure.youtube a img {
     -o-transition: all 200ms linear;
     -ms-transition: all 200ms linear;
     transition: all 200ms linear;
-}  
+}
 .modal.search-modal .modal-content button.btn {
 	position: absolute;
 	top:20px;
 	right:20px;
 	z-index:10;
 	font-size: 0.7rem;
-} 
+}
 
 .colored-prim,
 .colored-prim:hover,
@@ -3999,7 +3999,7 @@ figure.vimeo a img, figure.youtube a img {
 	letter-spacing:1px;
 	vertical-align: top;
 	color:#fff;
-	text-decoration: none;	
+	text-decoration: none;
 	padding-left:9px;
 	-webkit-transition : all 0.3s ease-out;
 	-moz-transition : all 0.3s ease-out;
@@ -4072,12 +4072,12 @@ figure.vimeo a img, figure.youtube a img {
 	background-attachment: fixed;
 	background-size: cover;
 	position: absolute;
-	top: 0; 
-	left: 0; 
+	top: 0;
+	left: 0;
 	right: 0;
 	bottom: 0;
 	z-index: 1;
-	width:100%;  
+	width:100%;
 }
 @media only screen and (min-width: 1930px) { .parallax { background-size: cover; } }
  @media only screen and (min-device-width : 768px) and (max-device-width : 1200px) and (orientation : landscape) {
@@ -4092,12 +4092,12 @@ figure.vimeo a img, figure.youtube a img {
 	background-attachment: fixed;
 	background-size: cover;
 	position: absolute;
-	top: 0; 
-	left: 0; 
+	top: 0;
+	left: 0;
 	right: 0;
 	bottom: 0;
 	z-index: 1;
-	width:100%;  
+	width:100%;
 }
 @media only screen and (min-width: 1930px) { .parallax-1 { background-size: cover; } }
  @media only screen and (min-device-width : 768px) and (max-device-width : 1200px) and (orientation : landscape) {
@@ -4112,12 +4112,12 @@ figure.vimeo a img, figure.youtube a img {
 	background-attachment: fixed;
 	background-size: cover;
 	position: absolute;
-	top: 0; 
-	left: 0; 
+	top: 0;
+	left: 0;
 	right: 0;
 	bottom: 0;
 	z-index: 1;
-	width:100%;  
+	width:100%;
 }
 @media only screen and (min-width: 1930px) { .parallax-2 { background-size: cover; } }
  @media only screen and (min-device-width : 768px) and (max-device-width : 1200px) and (orientation : landscape) {
@@ -4132,12 +4132,12 @@ figure.vimeo a img, figure.youtube a img {
 	background-attachment: fixed;
 	background-size: cover;
 	position: absolute;
-	top: 0; 
-	left: 0; 
+	top: 0;
+	left: 0;
 	right: 0;
 	bottom: 0;
 	z-index: 1;
-	width:100%;  
+	width:100%;
 }
 @media only screen and (min-width: 1930px) { .parallax-3 { background-size: cover; } }
  @media only screen and (min-device-width : 768px) and (max-device-width : 1200px) and (orientation : landscape) {
@@ -4152,12 +4152,12 @@ figure.vimeo a img, figure.youtube a img {
 	background-attachment: fixed;
 	background-size: cover;
 	position: absolute;
-	top: 0; 
-	left: 0; 
+	top: 0;
+	left: 0;
 	right: 0;
 	bottom: 0;
 	z-index: 1;
-	width:100%;  
+	width:100%;
 }
 @media only screen and (min-width: 1930px) { .parallax-4 { background-size: cover; } }
  @media only screen and (min-device-width : 768px) and (max-device-width : 1200px) and (orientation : landscape) {
@@ -4172,13 +4172,13 @@ figure.vimeo a img, figure.youtube a img {
 	background-repeat: repeat;
 	background-size: 300px 300px;
 	position: absolute;
-	top: 0; 
-	left: 0; 
+	top: 0;
+	left: 0;
 	right: 0;
 	bottom: 0;
 	z-index: 1;
-	width:100%;  
-} 
+	width:100%;
+}
 
 
 @media (max-width: 991px) {
@@ -4196,7 +4196,7 @@ figure.vimeo a img, figure.youtube a img {
 		height: 30px;
 		line-height: 30px;
 		font-size: 13px;
-	}	
+	}
 	#menu-wrap{
 		position: relative;
 		top:auto;
@@ -4258,7 +4258,7 @@ figure.vimeo a img, figure.youtube a img {
 	}
 	.cbp-af-header.cbp-af-header-shrink.menu-shadow{
 		box-shadow: 0px 6px 20px 0px rgba(0, 0, 0, 0);
-	}	
+	}
 	.drop-mega-menu {
 		width: 100%;
 		max-width: 100%;
@@ -4328,11 +4328,11 @@ figure.vimeo a img, figure.youtube a img {
 	}
 	.modal.search-modal .modal-content input {
 		font-size: 0.7rem;
-	}  
+	}
 	.modal.search-modal .modal-content button.btn {
 		top:0;
 		right:20px;
-	} 
+	}
 }
 @media (min-width: 992px) {
 	.drop-mega-menu {
@@ -4755,7 +4755,7 @@ figure.vimeo a img, figure.youtube a img {
 
 
 #hero-sync1 .item {
-	position: relative; 
+	position: relative;
     width: 100%;
     display: block;
 }
@@ -5411,7 +5411,7 @@ figure.vimeo a img, figure.youtube a img {
 .team-box-2:hover p,
 .team-box-2:hover .team-social{
 	opacity: 1;
-    -webkit-transition-delay: 0.2s; 
+    -webkit-transition-delay: 0.2s;
     transition-delay: 0.2s;
 }
 .team-box-2 .team-social li{
@@ -6645,7 +6645,7 @@ ul.countdown li p {
 	-o-transform: scale(1);
 	transform: scale(1);
 	border: 1px solid rgba(255, 255, 255, 0.3);
-    -webkit-transition-delay: 0.4s; 
+    -webkit-transition-delay: 0.4s;
     transition-delay: 0.4s;
 }
 .portfolio-box-1 h5,
@@ -6731,18 +6731,18 @@ ul.countdown li p {
 .portfolio-box-1:hover p.on-center {
 	opacity: 1;
 	left: 0;
-    -webkit-transition-delay: 0.3s; 
+    -webkit-transition-delay: 0.3s;
     transition-delay: 0.3s;
 }
 .portfolio-box-1:hover h5,
 .portfolio-box-1:hover p {
 	opacity: 1;
 	left: 40px;
-    -webkit-transition-delay: 0.1s; 
+    -webkit-transition-delay: 0.1s;
     transition-delay: 0.1s;
 }
 .portfolio-box-1:hover p {
-    -webkit-transition-delay: 0.3s; 
+    -webkit-transition-delay: 0.3s;
     transition-delay: 0.3s;
 }
 
@@ -7065,7 +7065,7 @@ ul.countdown li p {
 .prev-blog:hover,
 .next-blog:hover{
     box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.07);
-	
+
 }
 .prev-blog{
 	left:0;
@@ -7434,7 +7434,7 @@ input[type=number]::-webkit-outer-spin-button{
 	height: 50%;
 }
 
-/* #Product 
+/* #Product
 ================================================== */
 
 
@@ -7471,18 +7471,18 @@ input[type=number]::-webkit-outer-spin-button{
 	width:100%;
 }
 #hero-sync3  {
-	position: relative; 
+	position: relative;
     width: 100%;
     display: block;
 	padding-top: 40px;
 }
 #hero-sync3 .item {
-	position: relative; 
+	position: relative;
     width: 100%;
     display: block;
 }
 .onboarding-box {
-	position: relative; 
+	position: relative;
     width: 100%;
     display: block;
 	padding-top: 4rem;
@@ -7847,7 +7847,7 @@ input[type=number]::-webkit-outer-spin-button{
 /* #Media
 ================================================== */
 
-@media (max-width: 1500px) { 
+@media (max-width: 1500px) {
 .grid-box.fifth{
 	width: 25%;
 }
@@ -7863,7 +7863,7 @@ input[type=number]::-webkit-outer-spin-button{
 }
 }
 
-@media (max-width: 1300px) { 
+@media (max-width: 1300px) {
 .grid-box.quarter{
 	width: 33.33333333333333333%;
 }
@@ -7896,7 +7896,7 @@ input[type=number]::-webkit-outer-spin-button{
 	line-height: 1.1rem;
 	letter-spacing: 2px;
 }
-.counter-wrap.ver-3{ 
+.counter-wrap.ver-3{
 	height: 7rem;
 }
 .counter-wrap.ver-3 p span.small-2{
@@ -7906,7 +7906,7 @@ input[type=number]::-webkit-outer-spin-button{
 }
 }
 
-@media (max-width: 1050px) { 
+@media (max-width: 1050px) {
 .grid-box.third{
 	width: 50%;
 }
@@ -7940,7 +7940,7 @@ input[type=number]::-webkit-outer-spin-button{
 }
 
 
-@media (max-width: 991px) { 
+@media (max-width: 991px) {
 h1, .h1 {
 	font-size: 2.5rem;
 }
@@ -7965,7 +7965,7 @@ h6, .h6 {
 	height: 30vh;
 	top: auto;
 	left: auto;
-} 
+}
 #google-container.full-height.smaller-on-split-mob{
 	height: 30vh;
 }
@@ -8313,7 +8313,7 @@ h6, .h6 {
 	font-size: 2rem;
 	line-height: 2.3rem;
 }
-.counter-wrap.ver-3{ 
+.counter-wrap.ver-3{
 	height: 5rem;
 }
 .counter-wrap.ver-3 p span.small-2{

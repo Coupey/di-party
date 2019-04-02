@@ -80,10 +80,6 @@
 								<li class="nav-item">
 									<a href="#venue" class="nav-link">Venue</a>
 								</li>
-
-								<li class="nav-item">
-									<a href="#hotels" class="nav-link">Hotels</a>
-								</li>
 								<li class="nav-item">
 									<a href="#playlist" class="nav-link">Playlist</a>
 								</li>
@@ -179,7 +175,7 @@
 		<div class="container">
 
 
-			<form class="form-horizontal">
+			<form class="form-horizontal" action="contact.php" method="post" >
 
 
 				<fieldset>
@@ -187,16 +183,24 @@
 					<!-- Form Name -->
 					<legend class="coupey-brush-script-heading">RSVP</legend>
 
+					<!-- Textarea -->
+					<div class="form-group">
+						<label class="col-md-6 control-label font-weight-bold" for="textarea">Your name</label>
+						<div class="col-md-6">
+							<input class="form-control" id="name" name="name">
+						</div>
+					</div>
+
 					<div class="col-md-6 mt-4 mt-md-0">
 						<p class="font-weight-bold">Can you make it?</p>
 						<div class="radio primary">
-							<input type="radio" name="radio5" id="radio5" value="yes" checked="">
+							<input type="radio" name="coming" id="radio5" value="yes" checked="">
 							<label for="radio5">
 								I'd love to come
 							</label>
 						</div>
 						<div class="radio primary">
-							<input type="radio" name="radio5" id="radio6" value="no">
+							<input type="radio" name="coming" id="radio6" value="no">
 							<label for="radio6">
 								Afraid I can't
 							</label>
@@ -206,25 +210,23 @@
 
 					<!-- Select Basic -->
 					<div  class="col-md-6 mt-4 mt-md-0">
-						<label class="font-weight-bold" for="how many people">I'm coming along and I'm bringing this many other people with me:</label>
+						<label class="font-weight-bold" for="extrapeople">I'm coming along and I'm bringing this many other people with me:</label>
 						<div class="col-md-1 form-inline">
-							<select id="how many people" name="how many people" class="form-control">
+							<select id="extrapeople" name="how many people" class="form-control">
 								<option value="0">0</option>
 								<option value="1">1</option>
 								<option value="2">2</option>
 								<option value="3">3</option>
 								<option value="4">4</option>
-								<option value="5">5</option>
-								<option value="6">6</option>
 							</select>
 						</div>
 					</div>
 
 					<!-- Textarea -->
 					<div class="form-group">
-						<label class="col-md-6 control-label font-weight-bold" for="textarea">Any message or questions:</label>
+						<label class="col-md-6 control-label font-weight-bold" for="message">Any message or questions:</label>
 						<div class="col-md-6">
-							<textarea class="form-control" id="textarea" name="textarea"></textarea>
+							<textarea class="form-control" id="message" name="textarea"></textarea>
 						</div>
 					</div>
 
@@ -252,16 +254,11 @@
 
 	</div>
 
-	<div class="section" id="hotels">
-
-		<p>Coming from out of town? Here are some nearby hotels...</p>
-
-	</div>
 
 	<div class="section" id="playlist">
 		<p>Here is Di's playlist for night - feel free to add some tunes of your own.</p>
 
-		<iframe src="https://open.spotify.com/embed/user/coupey/playlist/45APjgBDRCAjpLr9JvpLTn" width="800" height="380" frameborder="10" allowtransparency="false" allow="encrypted-media"></iframe>
+		<iframe src="https://open.spotify.com/embed/user/coupey/playlist/1JT6zKr3RTNJ56iZFXu3Pr" width="800" height="380" frameborder="10" allowtransparency="false" allow="encrypted-media"></iframe>
 
 	</div>
 

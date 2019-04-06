@@ -153,10 +153,9 @@
 						<h5 class="mb-2">
 							<b>21st September 2019, 7.30pm - 1.00am</b><br><br>
 							<h5 class="mb-2">I know none of you will believe it but the time to turn 40 has come, and I'd love you all to join me to celebrate.
-								I've hired out the tap room at the marvellous Sheffield Brewery Company to help us out.<br><br>
+								I've hired out the tap room at the marvellous Sheffield Brewery Company to help me out.<br><br>
+								It's a grown-ups only event and eating is cheating so get something to eat beforehand.<br><br>
 								Please <a href="#rsvp" class="scroll">RSVP here</a> and find out more about the venue <a href="#venue" class="scroll">here</a>.<br>
-
-
 							</h5>
 
 						</h5>
@@ -175,7 +174,6 @@
 	<div class="section padding-top-bottom-small background-light z-bigger-2" id="rsvp">
 		<div class="container">
 
-
 			<form class="form-horizontal" action="contact.php" method="post" >
 
 
@@ -183,10 +181,11 @@
 
 					<!-- Form Name -->
 					<legend class="coupey-brush-script-heading">RSVP</legend>
+					<h5 class="mb-2">Fill in the form below to let me know if you can make it. You can also text me at 07941 550237 or send me an email to <a href="mailto:dianna.coupe@gmail.com">dianna.coupe@gmail.com</a></h5>
 
 					<!-- Textarea -->
 					<div class="form-group">
-						<label class="col-md-6 control-label font-weight-bold" for="textarea">Your name</label>
+						<label class="col-md-6 control-label font-weight-bold" for="name">Your name</label>
 						<div class="col-md-6">
 							<input class="form-control" id="name" name="name">
 						</div>
@@ -245,22 +244,52 @@
 		</div></div>
 
 		<div class="section padding-top-bottom-small background-dark z-bigger-2" id="venue">
+			<div class="container">
+				<div class="row">
+					<p class="coupey-brush-script-heading text-white">Venue</p>
+				</div>
+				<div class="row">
+					<div class="col-md-6">
+						<div class="call-box-1 dark text-center text-md-left">
+							<img src="pics/TSBC_single_logo_offwhite.png"><br><br>
+							<h5 class="mb-2">The party is at <a href="http://www.sheffieldbrewery.com/" target="_blank">Sheffield Brewery Company</a> which can be found at:<br><br>
+								Unit 111, JC Albyn Complex<br>
+								Burton Road, Sheffield<br>
+								S3 8BT<br><br>
+								The actual entrance to the brewery is on Percy Street. It's a stone's throw from Depot
+								Bakery, The Old Workshop and Yellow Arch.
+								<br><br>
+							There are a stack of places around Kelham Island to eat beforehand, and plenty of hotels a short walk or taxi ride away if you're coming from out of town - if you need advice on which might be best give me a shout.<br><br></h5>
+						</div>
+					</div>
 
-		<p>Blurb about the venue and a map</p>
-		The Sheffield Brewery Company<br>
-		Unit 111, JC Albyn Complex<br>
-		Burton Road, Sheffield<br>
-		S3 8BT<br>
-		<img src="http://www.sheffieldbrewery.com/wp-content/uploads/2018/03/TSBC_single_logo_offwhite_x2.png">
+					<div class="col-md-6">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1189.6406426149506!2d-1.475963!3d53.391908!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4879787d51ea9dd7%3A0x3ef6afc13f313139!2sSheffield+Brewery!5e0!3m2!1sen!2suk!4v1554586951081!5m2!1sen!2suk" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+					</div>
+
+				</div>
+			</div>
+
+
 
 	</div>
 
 
 	<div class="section" id="playlist">
-		<p>Here is Di's playlist for night - feel free to add some tunes of your own.</p>
+		<div class="container">
+			<div class="row">
+				<p class="coupey-brush-script-heading">Playlist</p>
+			</div>
+			<div class="row">
+				<h5>Here is a Spotify playlist that I'll have playing on the night. Feel free to add any tunes you like - the link if you need it is <a href="https://open.spotify.com/playlist/1JT6zKr3RTNJ56iZFXu3Pr" target="_blank">https://open.spotify.com/playlist/1JT6zKr3RTNJ56iZFXu3Pr</a></h5>
 
-		<iframe src="https://open.spotify.com/embed/user/coupey/playlist/1JT6zKr3RTNJ56iZFXu3Pr" width="800" height="380" frameborder="10" allowtransparency="false" allow="encrypted-media"></iframe>
-
+				<iframe src="https://open.spotify.com/embed/user/coupey/playlist/1JT6zKr3RTNJ56iZFXu3Pr" width="100%" height="580" frameborder="10" allowtransparency="true" allow="encrypted-media"></iframe>
+			</div>
+		</div>
+		<div class="row">
+			<p class="coupey-brush-script-heading"><br></p>
+		</div>
 	</div>
 
 
@@ -278,33 +307,41 @@
 	<script type="text/javascript" src="js/custom/custom-op-media-agency.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 	<script type="text/javascript">
+		window.onbeforeunload = function () {
+			window.scrollTo(0, 0);
+		};
+
 		function getRandomTranslation() {
 			return [Math.round(Math.random()*100),Math.round(Math.random()*100)]
 		}
 
-		anime.timeline({loop: false})
-		.add({
-			targets: '.ml12 .letter',
-			translateX: [20,0],
-			translateZ: 0,
-			opacity: [0,1],
-			easing: "easeOutExpo",
-			duration: 1200,
-			delay: function(el, i) {
-				return 1500 + 200 * i;
-			}
-		})
-		.add({
-			targets: '.ml13 .letter',
-			translateX: [20,0],
-			translateZ: 0,
-			opacity: [0,1],
-			easing: "easeOutExpo",
-			duration: 1200,
-			delay: function(el, i) {
-				return 100 + 200 * i;
-			}
+		$(document).ready(function(){
+			anime.timeline({loop: false})
+			.add({
+				targets: '.ml12 .letter',
+				translateX: [20,0],
+				translateZ: 0,
+				opacity: [0,1],
+				easing: "easeOutExpo",
+				duration: 1200,
+				delay: function(el, i) {
+					return 1500 + 200 * i;
+				}
+			})
+			.add({
+				targets: '.ml13 .letter',
+				translateX: [20,0],
+				translateZ: 0,
+				opacity: [0,1],
+				easing: "easeOutExpo",
+				duration: 1200,
+				delay: function(el, i) {
+					return 100 + 200 * i;
+				}
+			});
 		});
+
+
 
 	</script>
 

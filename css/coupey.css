@@ -4,6 +4,11 @@
     line-height: 3rem;
 }
 
+.coupey-brush-script-heading {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 4em!important;
+}
+
 .coupey-bungee-script {
     font-family: 'Bungee Shade', cursive!important;
     color: white;
@@ -33,4 +38,10 @@
         font-size: 3.5rem!important;
         line-height: 3rem!important;
     }
+}
+
+
+.no-borders {
+   margin: 0;
+    font-size: 2em!important;
 }

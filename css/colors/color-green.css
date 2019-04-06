@@ -56,12 +56,12 @@ ul.countdown li span,
 .shop-box-1 h5:hover,
 .error-page h1,
 .onboarding-box i{
-	color: #6dc234;
+	color: #963fdc;
 }
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
-	color: #6dc234;
-	border-color: #6dc234;
+	color: #963fdc;
+	border-color: #963fdc;
 }
 #royal_preloader.royal_preloader_progress .royal_preloader_meter,
 mark,
@@ -112,7 +112,7 @@ mark,
 .input-text,
 .next-hero-sync-2,
 .prev-hero-sync-2 {
-	background-color: #6dc234;
+	background-color: #963fdc;
 }
 .services-box-1 .icon-in-box {
 	box-shadow: 0px 5px 25px 0px rgba(109, 194, 52, .3);
@@ -127,30 +127,30 @@ mark,
 	background-color: rgba(109,194,52,.3);
 }
 .call-box-5{
-	border: 5px solid #6dc234; 
+	border: 5px solid #963fdc;
 }
 .next-testimonials:hover,
 .prev-testimonials:hover{
 	background-color: rgba(109,194,52,.8);
 }
 .btn-primary.btn-simple {
-    color: #6dc234;
-    border: 2px solid #6dc234;
+    color: #963fdc;
+    border: 2px solid #963fdc;
 }
 .colored-prim,
 .colored-prim:hover,
 .colored-prim:focus,
 .colored-prim:active{
-	background-color: #6dc234 !important;
+	background-color: #963fdc !important;
 }
 .blockquote{
-	border-left: 0.4rem solid #6dc234;
+	border-left: 0.4rem solid #963fdc;
 }
 .blockquote-reverse{
-	border-right: 0.4rem solid #6dc234;
-}  
+	border-right: 0.4rem solid #963fdc;
+}
 .fancybox-thumbs > ul > li:before {
-    border: 4px solid #6dc234;
+    border: 4px solid #963fdc;
 }
 .modal.search-modal .modal-content input:active,
 .modal.search-modal .modal-content input:focus,
@@ -164,56 +164,56 @@ mark,
 .services-box-1.border-on-light.border-on-hover:hover,
 #hero-sync4 .item:hover,
 #hero-sync4 .synced .item{
-	border-color: #6dc234;
+	border-color: #963fdc;
 }
 .checkbox.primary label::before,
 .checkbox.primary label::after {
-    border: 1px solid #6dc234;
+    border: 1px solid #963fdc;
 }
 .checkbox.primary label::after {
-    color: #6dc234;
+    color: #963fdc;
 }
 .checkbox.primary input[type="checkbox"]:disabled,
 .radio.primary input[type="radio"]:disabled {
-    color: #6dc234;
+    color: #963fdc;
 }
 .radio.primary label::before,
 .radio.primary label::after {
-    border: 1px solid #6dc234;
+    border: 1px solid #963fdc;
 }
 .radio.primary input[type="radio"]:checked+label::after {
-    background-color: #6dc234;
-    border-color: #6dc234;
+    background-color: #963fdc;
+    border-color: #963fdc;
 }
 .radio.primary input[type="radio"]:disabled {
-    color: #6dc234;
+    color: #963fdc;
 }
 .radio.primary input[type="radio"]:disabled,
 .radio.primary input[type="radio"]:disabled {
-    color: #6dc234;
+    color: #963fdc;
 }
 .slider.slider-primary .noUi-connect,
 .slider.slider-primary.noUi-connect {
-    background-color: #6dc234;
+    background-color: #963fdc;
 }
 .slider.slider-primary.noUi-target {
     background-color: rgba(109,194,52,.3);
 }
 .slider.slider-primary .noUi-handle {
-    background-color: #6dc234;
+    background-color: #963fdc;
 }
 figure.vimeo a:before, figure.youtube a:before {
-	border-left: 10px solid #6dc234;
+	border-left: 10px solid #963fdc;
 }
 figure.vimeo:hover a:after, figure.youtube:hover a:after {
-	background:#6dc234;
+	background:#963fdc;
 }
 @keyframes "blink" {
   from, to {
     color: transparent;
   }
   50% {
-	color: #6dc234;
+	color: #963fdc;
   }
 }
 @-moz-keyframes blink {
@@ -221,7 +221,7 @@ figure.vimeo:hover a:after, figure.youtube:hover a:after {
     color: transparent;
   }
   50% {
-	color: #6dc234;
+	color: #963fdc;
   }
 }
 @-webkit-keyframes "blink" {
@@ -229,7 +229,7 @@ figure.vimeo:hover a:after, figure.youtube:hover a:after {
     color: transparent;
   }
   50% {
-	color: #6dc234;
+	color: #963fdc;
   }
 }
 @-ms-keyframes "blink" {
@@ -237,7 +237,7 @@ figure.vimeo:hover a:after, figure.youtube:hover a:after {
     color: transparent;
   }
   50% {
-	color: #6dc234;
+	color: #963fdc;
   }
 }
 @-o-keyframes "blink" {
@@ -245,15 +245,15 @@ figure.vimeo:hover a:after, figure.youtube:hover a:after {
     color: transparent;
   }
   50% {
-	color: #6dc234;
+	color: #963fdc;
   }
 }
 
 ::selection {
-	background-color: #6dc234;
+	background-color: #963fdc;
 }
 ::-moz-selection {
-	background-color: #6dc234;
+	background-color: #963fdc;
 }
 
 

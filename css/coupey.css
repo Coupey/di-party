@@ -1,3 +1,5 @@
+
+
 .coupey-brush-script {
     font-family: 'Kaushan Script', cursive;
     font-size: 5em!important;
@@ -12,6 +14,18 @@
 .coupey-bungee-script {
     font-family: 'Bungee Shade', cursive!important;
     color: white;
+}
+
+
+
+@media (max-width: 991px){
+    .cbp-af-header-shrink-text {
+        margin-top: -25px!important;
+    }
+}
+
+.cbp-af-header-shrink .cbp-af-header-shrink-text {
+    margin-top: -15px
 }
 
 .ml12 .letter {

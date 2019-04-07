@@ -143,7 +143,7 @@ body.royal_preloader {
 /* Text Mode */
 
 #royal_preloader.royal_preloader_text .royal_preloader_loader {
-    color: #FFFFFF;
+    color: #000000;
     position: absolute;
     top: 0;
     bottom: 0;
@@ -171,7 +171,7 @@ body.royal_preloader {
 /* Scale Text Mode */
 
 #royal_preloader.royal_preloader_scale_text .royal_preloader_loader {
-    color: #FFFFFF;
+    color: #000000;
     position: absolute;
 	font-weight:700;
     top: 0;
@@ -256,7 +256,7 @@ body.royal_preloader {
     width: 160px;
     height: 1px;
     margin: -10px auto auto auto;
-	background:#ccc;
+	background:#000;
 }
 #royal_preloader.royal_preloader_progress .royal_preloader_meter {
     width: 0;
@@ -4531,12 +4531,12 @@ figure.vimeo a img, figure.youtube a img {
 	padding: 0.6rem 1.2rem;
 	border-radius: 0.2rem;
 }
-.hero-text img{
-	width:90px;
-	display:block;
-	margin:0 auto;
-	padding-bottom:50px;
-}
+/*.hero-text img{*/
+/*	width:90px;*/
+/*	display:block;*/
+/*	margin:0 auto;*/
+/*	padding-bottom:50px;*/
+/*}*/
 .hero-text h1{
 	padding-bottom:20px;
 	text-transform:uppercase;

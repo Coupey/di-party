@@ -58,6 +58,7 @@
 	</script>
 
 </head>
+<body>
 <div class="royal_preloader">
 
 	<div id="royal_preloader"></div>
@@ -70,13 +71,15 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					<nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse not-transparent bg-faded">
+					<nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse not-transparent bg-faded" style="height: 40px; flex-direction:  row">
 						<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavMenuMain" aria-controls="navbarNavMenuMain" aria-expanded="false" aria-label="Toggle navigation">
 							<span class="navbar-toggler-icon"></span>
 						</button>
-						<a class="navbar-brand" href="index.html">
-							<p class="coupey-brush-script text-white no-borders">Di's 40th Birthday</p>
+						<img id='menupic1' src="pics/Pineapple2.png" width="30px">
+						<a class="navbar-brand" href="#home">
+							<p class="coupey-brush-script text-white no-borders">&nbsp;Di's 40th Birthday</p>
 						</a>
+						<img id='menupic2' src="pics/Watermelon1.png" width="50px">
 						<div class="collapse navbar-collapse justify-content-end" id="navbarNavMenuMain">
 							<ul class="navbar-nav">
 								<li class="nav-item">
@@ -121,6 +124,12 @@
 			<div class="grey-fade-over"></div>
 			<div class="hero-center-wrap move-bottom z-bigger">
 				<div class="container color-white hero-text big-text text-center parallax-fade-top">
+					<div class="" style="float:left">
+						<img id="pic1" src="pics/Flamingo.png" class="jiggler" style="position: absolute;z-index: 0; left:0px; top:10px">
+						<img id="pic2" src="pics/IceCream.png" class="jiggler" style="position: absolute;z-index: 0; left:900px; top:50px">
+						<img id="pic3" src="pics/Popsicle1.png" class="jiggler" style="position: absolute;z-index: 0; left:600px; top:35px">
+						<img id="pic4" src="pics/Cactus.png" class="jiggler" style="position: absolute;z-index: 0; left:400px; top:75px">
+					</div>
 					<div class="row">
 						<div class="col-md-12 mg-auto">
 							<a href="#rsvp" class="btn btn-primary btn-round btn-long mt-5 scroll" >Please RSVP here!</a>
@@ -316,11 +325,28 @@
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/plugins.js"></script>
 	<script type="text/javascript" src="js/custom/custom-op-media-agency.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+	<script type="text/javascript" src="js/jquery.jrumble.1.3.js"></script>
+	<script type="text/javascript" src="js/anime.js"></script>
 	<script type="text/javascript">
 		window.onbeforeunload = function () {
 			window.scrollTo(0, 0);
 		};
+
+		// set up jiggly animations
+		$('#menupic1').jrumble({
+			rotation: 5,
+			speed: 100
+		});
+		$('#menupic2').jrumble({
+			speed: 100,
+			rotation: 8
+		});
+		$('.jiggler').jrumble({
+			rotation: 5,
+			speed: 100
+		});
+		// $('#menupic1, #menupic2').trigger('startRumble');
+		$('.jiggler').trigger('startRumble');
 
 		function getRandomTranslation() {
 			return [Math.round(Math.random()*100),Math.round(Math.random()*100)]

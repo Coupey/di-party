@@ -4,15 +4,15 @@ $siteTitle = 'Party';
 
 error_reporting(E_ALL ^ E_NOTICE); // hide all basic notices from PHP
 
-echo 'hello\n';
-echo $_POST['name'].'\n';
-echo $_POST['extrapeople'].'\n';
-echo $_POST['coming'].'\n';
-echo $_POST['message'].'\n';
+//echo 'hello\n';
+//echo $_POST['name'].'\n';
+//echo $_POST['extrapeople'].'\n';
+//echo $_POST['coming'].'\n';
+//echo $_POST['message'].'\n';
 
 //If the form is submitted
 if(isset($_POST['submit'])) {
-	echo 'in the whatnot';
+//	echo 'in the whatnot';
     $extraPeople = $_POST['extrapeople'];
     $email = 'party@party.com';
 
@@ -54,5 +54,7 @@ if(isset($_POST['submit'])) {
 		$emailSent = true;
 	}
 }
-echo 'out the whatnot';
+//echo 'out the whatnot';
+
+header('Location: thanks.html');
 ?>

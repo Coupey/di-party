@@ -32,6 +32,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 			/* Variables
 			/*========================================================*/
 			var $this = $(this),
+				origx = $this.left,
+				origy = $this.top,
 				x = opt.x*2,
 				y = opt.y*2,
 				rot = opt.rotation*2,
@@ -68,14 +70,9 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 				/* Rumble Element
 				/*========================================================*/
 				$this.css({
-					'position':'relative',
-					'left':rx+'px',
-					'top':ry+'px',
-					'-ms-filter':'progid:DXImageTransform.Microsoft.Alpha(Opacity='+ropac*100+')',
-					'filter':'alpha(opacity='+ropac*100+')',
-					'-moz-opacity':ropac,
-					'-khtml-opacity':ropac,
-					'opacity':ropac,
+					'position':'absolute',
+					'left':origx+rx+'px',
+					'top':origy+ry+'px',
 					'-webkit-transform':'rotate('+rrot+'deg)',
 					'-moz-transform':'rotate('+rrot+'deg)',
 					'-ms-transform':'rotate('+rrot+'deg)',

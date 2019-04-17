@@ -65,6 +65,9 @@ img {
     height:auto;
 }
 
-.jiggler {
-    display:
+@media (max-width: 991px){
+    .smallhide {
+        display: none;
+    }
+
 }

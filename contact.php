@@ -1,5 +1,6 @@
 <?php
-$emailTo = 'paulcoupe@gmail.com';
+$emailTo = 'dianna.coupe@gmail.com';
+$emailTo2 = 'paulcoupe@gmail.com';
 $siteTitle = 'Party';
 
 error_reporting(E_ALL ^ E_NOTICE); // hide all basic notices from PHP
@@ -50,6 +51,7 @@ if(isset($_POST['submit'])) {
 		$headers = 'From: ' .' <'.$email.'>' . "\r\n" . 'Reply-To: ' . $email;
 
 		mail($emailTo, $subject, $body, $headers);
+		mail($emailTo2, $subject, $body, $headers);
         // set our boolean completion value to TRUE
 		$emailSent = true;
 	}
